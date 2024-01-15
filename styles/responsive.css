@@ -55,4 +55,25 @@
 }
 /* -----------------------------------Header Ends------------------------ */
 
+.popular-section{
+    flex-direction: column;
+    gap: 5%;
+    
+}
+.text-div{
+    width: auto;
+}
+.image-div{
+    width: 100%;
+}
+.text-div h1{
+    font-size: 20px;
+}
+/* ----------------------------Popular section ends---------------------------- */
+
+/* ----------------------------Destination section starts------------------------- */
+
+
+
+/* ----------------------------Destination section ends------------------------- */
 }
