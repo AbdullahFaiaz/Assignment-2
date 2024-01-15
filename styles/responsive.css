@@ -1,0 +1,26 @@
+@media screen and (max-width:600px) {
+    /* site logo name container */
+    .site-logo{
+        width: 28.724px;
+        height: 33.516px;
+    }
+    .site-name{
+        font-size: 21.543px;
+        font-weight: 800;
+    }
+    .span-heaven{
+        font-size: 21.543px;
+        font-weight: 800;
+    }
+    /* nav options container */
+    .nav-options{
+        display: none;
+        width: 24px;
+        height: 24px;
+    }
+    .hamburger{
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+    }
+}
