@@ -365,6 +365,10 @@ main{
 }
 .agencies img{
     height: 100px;
+    transition: transform 0.3s ease-in-out 0s;
+}
+.agencies img:hover{
+    transform: scale(1.4);
 }
 
 
@@ -406,10 +410,11 @@ main{
     border-radius: 10px 10px 10px 0px ;
     padding: 2%;
     box-shadow: 5px 10px 10px gray;
+    transition: transform 0.3s ease-in-out 0s;
 
 }
 
-.card-div:hover{
+.card-div-container .card-div:hover{
     box-shadow: 10px 5px 5px gray;
     transform: scale(1.05);
 }
@@ -814,6 +819,9 @@ footer{
     width: 150px;
     margin-top: 10px;
     margin-bottom: 5px;
+}
+.social img:hover{
+    transform: scale(1.4);
 }
 button:hover{
     transform: scale(1.1);
