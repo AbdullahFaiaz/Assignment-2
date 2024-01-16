@@ -37,6 +37,7 @@
     font-weight: 800;
 }
 /* nav-options-container */
+
 .nav-options{
     color: #424247;
     text-align: center;
@@ -45,6 +46,9 @@
     font-weight: 400;
     text-decoration: none;
     margin-left: 1rem;
+}
+.nav-options:hover{
+    background-color: lightsalmon;
 }
 .nav-options-home{
     color: #FF5400;
@@ -449,6 +453,7 @@ main{
     font-weight: 800;
     padding: 10px;
     box-sizing: border-box;
+    border: 0;
 }
 
 .package-btn-container{
@@ -614,6 +619,7 @@ main{
     font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 5%;
     line-height: 26px; /* 162.5% */
 }
 .newslatter-section .text-div input{
@@ -639,16 +645,83 @@ main{
     border-radius: 8px;
     background: #FF5400;
     border: 0;
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 .newslatter-section .image-div{
     width: 55%;
+    position: relative;
 }
 .newslatter-section .image-div img{
     width: 100%;
     height: 100%;
 }
-
+.newslatter-section .tocken{
+    border-radius: 16px;
+    width: 50%;
+    background: #FF5400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    height: 35%;
+    transform: rotate(-19.628deg);
+    position: absolute;
+    bottom: 13%;
+    right: 3.5%;
+}
+.newslatter-section .tocken h6{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    
+}
+.newslatter-section .tocken h1{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
 
 /* ----------------------------Newslatter section ends---------------------------- */
+
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    max-width: 1800px;
+    margin: 0 auto;
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    height: 500px;
+}
+.footer-section img{
+    cursor: pointer;
+}
+.footer-section p{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.footer-hr{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 872px;
+    height: 2px;
+    background: rgba(19, 19, 24, 0.10);
+    border: 0;
+}
+button:hover{
+    transform: scale(1.1);
+}

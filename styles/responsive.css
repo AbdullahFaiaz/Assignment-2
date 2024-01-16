@@ -275,7 +275,16 @@
 
 
 /* ----------------------------Newslatter section starts---------------------------- */
-
+.newslatter-section{
+    flex-direction: column;
+}
+.newslatter-section .text-div{
+    width: 100%;
+    margin-top: 55px;
+}
+.newslatter-section .image-div{
+    width: 100%;
+}
 /* ----------------------------Newslatter section ends---------------------------- */
 
 
