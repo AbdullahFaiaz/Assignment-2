@@ -45,9 +45,14 @@
     font-weight: 400;
     text-decoration: none;
     margin-left: 1rem;
+    transition: padding 0.3s ease-in-out 0s;
 }
 .nav-options:hover{
-    background-color: lightsalmon;
+    background-color: #145364;
+    border-radius: 3px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: white;
 }
 .nav-options-home{
     color: #FF5400;
