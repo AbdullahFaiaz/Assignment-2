@@ -191,7 +191,86 @@
 }
 /* ----------------------------Why Choose Us section ends------------------------- */
 
+/*-------------------------- Extra Section starts-------------- */
 
+
+
+
+.agencies{
+    display: flex;
+    margin-top: 15%;
+    justify-content: space-between;
+    background: #FFF4E7;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+
+}
+.agencies img{
+    height: 40px;
+}
+
+
+
+
+.extra-section .card-div-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+.extra-section .text-div h5{
+    color: #DF6951;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.extra-section .text-div h1{
+    color: #181E4B;
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.card-div-container .card-div{
+    width: 90%;
+    height: 190px;
+    border-radius: 36px;
+    background: #FFF;
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    border-radius: 15px 10px 10px 0px ;
+    padding: 3%;
+}
+
+.card-div:hover{
+    border: 1px solid steelblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------Extra Section ends------------------ */
 
 /* ----------------------------Deals and Discount section starts------------------------- */
 
@@ -219,7 +298,6 @@
 .booking-card-container-2 #booking-card-2{
     width: 100%;
 }
-
 .booking-card-container .line-1{
     flex-wrap: wrap;
     margin-top: 5%;
@@ -234,7 +312,7 @@
     line-height: 22px; /* 162.5% */
 }
 .booking-card-container .line-4{
-    margin-top: 10%
+    margin-top: 0;
 }
 .booking-card-container .line-5{
     font-size: 18px;

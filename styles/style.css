@@ -352,6 +352,89 @@ main{
 }
 /* ----------------------------Why Choose Us section ends------------------------- */
 
+/*-------------------------- Extra Section starts-------------- */
+
+.agencies{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+    background: #FFF4E7;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.agencies img{
+    height: 100px;
+}
+
+
+
+
+
+
+.extra-section .card-div-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.extra-section .text-div h5{
+    color: #DF6951;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.extra-section .text-div h1{
+    color: #181E4B;
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.card-div-container .card-div{
+    width: 160px;
+    height: 314px;
+    border-radius: 36px;
+    background: #FFF;
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    border-radius: 10px 10px 10px 0px ;
+    padding: 2%;
+    box-shadow: 5px 10px 10px gray;
+
+}
+
+.card-div:hover{
+    box-shadow: 10px 5px 5px gray;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------Extra Section ends------------------ */
+
 
 
 /* ----------------------------Deals and Discount section starts------------------------- */
@@ -375,7 +458,7 @@ main{
     line-height: 26px; /* 162.5% */
     width: 50%;
     margin: 1% auto;
-    margin-bottom: 5%;
+
 }
 
 /* booking card container */
@@ -405,7 +488,7 @@ main{
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     height: 80%;
-    width: 50%;
+    width: 60%;
     align-items: center;
     box-sizing: border-box;
     padding: 3.5%;
@@ -485,15 +568,16 @@ main{
 }
 .get-lost-section .text-div{
     width: 43%;
+    height: 424px;
 }
 .get-lost-section .text-div h1{
     margin-top: 0;
     color: #131318;
     font-family: Mulish;
-    font-size: 40px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 800;
-    line-height: 55px; /* 150% */
+    line-height: 35px; /* 150% */
 }
 .get-lost-section .text-div .first-para{
     color: rgba(19, 19, 24, 0.70);
@@ -521,6 +605,7 @@ main{
     border-radius: 8px;
     background-color: #FF5400;
     border: 0;
+    margin-top: 20px;
 }
 
 .get-lost-section .image-div{
@@ -724,9 +809,9 @@ footer{
     border: 0;
 }
 .social{
-    height: 20px;
-    width: 80px;
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
     margin-top: 10px;
     margin-bottom: 5px;
 }
