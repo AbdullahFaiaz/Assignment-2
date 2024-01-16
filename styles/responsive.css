@@ -137,12 +137,11 @@
 /* ----------------------------Why Choose Us section starts------------------------- */
 
 .why-choose-us-section{
-    margin-top: 150px;
+    margin-top: 200px;
 }
 .why-choose-us-section .text-div h1{
     color: #131318;
     text-align: center;
-    font-family: Mulish;
     font-size: 20px;
     font-weight: 800;
     margin-top: 10%;
@@ -150,7 +149,6 @@
 .why-choose-us-section .text-div p{
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
-    font-family: Mulish;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px; /* 162.5% */
@@ -158,7 +156,7 @@
     margin: none;
 }
 
-
+/* card */
 
 .why-choose-us-section .card-div{
     display: flex;
@@ -195,8 +193,58 @@
 
 
 
+/* ----------------------------Deals and Discount section starts------------------------- */
 
+.deals-and-discount-section .text-div h1{
+    font-size: 20px;
+    margin-top: 10%;
+}
+.deals-and-discount-section .text-div p{
+    font-size: 14px;
+    line-height: 24px; /* 162.5% */
+    width: 90%;
+    margin: none;
+}
 
+/* booking card container */
+.booking-card-container{
+    height: 550px;
+}
+.booking-card-container .booking-card{
+    margin-bottom: 6%;
+    height: 70%;
+    width: 94%;
+    padding: 3.5%;
+}
+.booking-card-container-2 #booking-card-2{
+    width: 100%;
+}
 
+.booking-card-container .line-1{
+    flex-wrap: wrap;
+    margin-top: 5%;
+
+}
+.booking-card-container .line-2{
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+.booking-card-container .line-3{
+    font-size: 14px;
+    line-height: 22px; /* 162.5% */
+}
+.booking-card-container .line-4{
+    margin-top: 10%
+}
+.booking-card-container .line-5{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px;
+}
+.package-btn-container{
+    display: none;
+}
+
+/* ----------------------------Deals and Discount section ends------------------------- */
 
 }

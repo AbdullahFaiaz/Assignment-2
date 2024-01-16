@@ -305,7 +305,7 @@ main{
 }
 
 
-
+/* cards */
 .why-choose-us-section .card-div{
     display: flex;
     flex-wrap: wrap;
@@ -348,6 +348,124 @@ main{
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
-
-
 /* ----------------------------Why Choose Us section ends------------------------- */
+
+
+
+/* ----------------------------Deals and Discount section starts------------------------- */
+
+.deals-and-discount-section{
+    margin-top: 10%;
+}
+.deals-and-discount-section .text-div h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.deals-and-discount-section .text-div p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 50%;
+    margin: 1% auto;
+    margin-bottom: 5%;
+}
+
+/* booking card container */
+.booking-card-container{
+    background-image: url('../Images/Group\ 39.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    height: 500px;
+    box-sizing: border-box;
+    display: flex;
+    padding-left: 7%;
+    margin-bottom: 6%;
+}
+.booking-card-container-2{
+    justify-content: flex-end;
+    padding-right: 7%;
+}
+#change-background{
+    background-image: url('../Images/Group\ 40.png');
+}
+.booking-card-container .booking-card{
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    height: 80%;
+    width: 50%;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 3.5%;
+}
+
+.booking-card-container .line-1{
+    display: flex;
+    margin-top:5% ;
+}
+.booking-card-container .line-1 .infos{
+    display: flex;
+    align-items: center;
+}
+
+.booking-card-container .line-2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+.booking-card-container .line-3{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.booking-card-container .line-4{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 7%;
+    margin-top: 4%;
+}
+.booking-card-container .line-5{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.package-btn-container{
+    display: flex;
+    justify-content: center;
+}
+.package-btn{
+    min-width: 210px;
+    margin: 2% auto;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border: 0;
+}
+/* ----------------------------Deals and Discount section ends------------------------- */
