@@ -140,7 +140,6 @@ main{
 .popular-section{
     display: flex;
     gap: 5%;
-    height: 550px;
     margin-top: 10%;
 }
 .popular-section .text-div{
@@ -599,6 +598,7 @@ main{
     height: 422px;
     display: flex;
     gap: 5%;
+    margin-bottom:10% ;
 }
 .newslatter-section .text-div{
     width: 40%;
@@ -692,35 +692,42 @@ main{
 }
 
 /* ----------------------------Newslatter section ends---------------------------- */
-
+footer{
+    background-color:  rgba(19, 19, 24, 0.05);
+}
 .footer{
-    background: rgba(19, 19, 24, 0.05);
-    max-width: 1800px;
+    width: 90%;
+    max-width: 1400px;
     margin: 0 auto;
 }
+
 .footer-section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-    height: 500px;
+    padding-bottom:10% ;
+    padding-top: 10%;
 }
 .footer-section img{
     cursor: pointer;
 }
 .footer-section p{
-    width: 50%;
-    text-align: center;
+    width: 90%;
     margin-bottom: 2%;
+    text-align: center;
 }
 .footer-hr{
     margin-top: 3%;
     margin-bottom: 3%;
-    width: 872px;
+    width: 85%;
     height: 2px;
     background: rgba(19, 19, 24, 0.10);
     border: 0;
+}
+.social{
+    height: 20px;
+    width: 50px;
+    display: inline-block;
 }
 button:hover{
     transform: scale(1.1);

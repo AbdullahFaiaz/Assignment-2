@@ -277,6 +277,8 @@
 /* ----------------------------Newslatter section starts---------------------------- */
 .newslatter-section{
     flex-direction: column;
+    box-sizing: border-box;
+    margin-bottom: 100%;
 }
 .newslatter-section .text-div{
     width: 100%;
@@ -285,7 +287,45 @@
 .newslatter-section .image-div{
     width: 100%;
 }
+.newslatter-section .tocken h6{
+    font-size: 11px;
+    font-weight: 300;
+}
+.newslatter-section .tocken h1{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
 /* ----------------------------Newslatter section ends---------------------------- */
 
 
+.footer{
+    margin: 0 auto;
+}
+.footer-section{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.footer-section p{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1%;
+    font-size: 10px;
+}
+.footer-hr{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 2px;
+    background: rgba(19, 19, 24, 0.10);
+    border: 0;
+}
+.copy{
+    font-size: 10px;
+}
 }
