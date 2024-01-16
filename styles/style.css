@@ -22,7 +22,6 @@
 .site-logo{
     width: 48px;
     height: 56px;
-    flex-shrink: 0;
 }
 .site-name{
     color: #131318;
@@ -726,8 +725,10 @@ footer{
 }
 .social{
     height: 20px;
-    width: 50px;
+    width: 80px;
     display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 button:hover{
     transform: scale(1.1);
