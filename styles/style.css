@@ -469,3 +469,125 @@ main{
     border: 0;
 }
 /* ----------------------------Deals and Discount section ends------------------------- */
+
+
+
+
+/* ----------------------------Get lost section starts---------------------------- */
+.get-lost-section{
+    display: flex;
+    gap: 5%;
+    height: 550px;
+    margin-top: 10%;
+}
+.get-lost-section .text-div{
+    width: 43%;
+}
+.get-lost-section .text-div h1{
+    margin-top: 0;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px; /* 150% */
+}
+.get-lost-section .text-div .first-para{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.get-lost-section .text-div ul{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+}
+.get-lost-section .text-div .see-more-btn{
+    color: #FFF;
+    width: 174px;
+    height: 52px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background-color: #FF5400;
+    border: 0;
+}
+
+.get-lost-section .image-div{
+    width: 52%;
+    position: relative;
+    text-align: center;
+}
+.get-lost-section .image-div>img{
+    width: 100%;
+    height: 100%;
+}
+.get-lost-section .image-div> h3{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    width: 276px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+} 
+.get-lost-section .image-div> .vid-pause{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+.get-lost-section .image-div> .vid-right{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    position: absolute;
+    top: 85%;
+    right: 5%;
+    gap: 20%;
+    transform: translate(-50%, -50%);
+}
+.get-lost-section .image-div> .vid-bar hr{
+    color: gray;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+.get-lost-section .image-div> .vid-progress{
+    color: #FFF;
+    position: absolute;
+    background-color: white;
+    border-radius: 10%;
+    border: 0;
+    height: 3px;
+    width: 20%;
+    top: 93.38%;
+    left: 14.8%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+.get-lost-section .image-div> .vid-progress hr{
+    display: none;
+}
+
+/* ----------------------------Get Lost section ends---------------------------- */
+
+/* ----------------------------Newslatter section starts---------------------------- */
+
+/* ----------------------------Newslatter section ends---------------------------- */

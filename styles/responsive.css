@@ -247,4 +247,36 @@
 
 /* ----------------------------Deals and Discount section ends------------------------- */
 
+/* -----------------------------------Get lost section Starts------------------------ */
+
+.get-lost-section{
+    flex-direction: column;
+    height: auto;
+}
+.get-lost-section .text-div{
+    width: 100%;
+    line-height: 24px;
+    margin-bottom: 5%;
+}
+.get-lost-section .image-div{
+    width: 100%;
+}
+.get-lost-section .text-div h1{
+    font-size: 20px;
+    width: 248px;
+    line-height: 28px;
+}
+
+.get-lost-section .image-div> .vid-progress{
+    top: 94%;
+}
+/* ----------------------------Get Lost section ends---------------------------- */
+
+
+
+/* ----------------------------Newslatter section starts---------------------------- */
+
+/* ----------------------------Newslatter section ends---------------------------- */
+
+
 }
